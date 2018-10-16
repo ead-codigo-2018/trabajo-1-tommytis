@@ -1,0 +1,297 @@
+/*Titulo*/
+.row {
+  text-align: center;
+  color: white;
+  font-size:30px;
+  font-family:georgia;
+}
+
+body{
+  background-color: black;
+}
+/*Responsive*/
+@media ( min-width: 600px ) {
+.container{
+  display: grid;
+  grid-template-columns:25% 25% 25% 25%;
+  color:black;
+  text-align: center;
+  width: 100%;
+
+}
+}
+/*sub 6*/
+.container{
+    padding: 1px;
+
+
+}
+/*Ventanas*/
+h2 {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+  font-family:georgia;
+  margin-left:15px;
+  margin-right:60px;
+  margin-top:100px;
+  margin-bottom:70px
+}
+/*sub 6 y texto*/
+@media ( min-width: 600px ) {
+.wrapper{
+  color:black;
+  background-color:white;
+  text-align: center;
+  font-family: georgia;
+  padding:50px;
+  margin-right:100px;
+  margin-left:100px;
+  margin-bottom: 20px;
+}
+}
+p{
+  font-family:roboto;
+  margin-left: 170px;
+  margin-right: 170px;
+  text-align: justify;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+h3{
+  margin-top:20px;
+  font-size:30px;
+
+
+}
+a{
+  text-decoration:none;
+  color: #9AA097;
+
+}
+#leyenda{
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#ley{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-style: oblique;
+  font-size: 20px;
+}
+/*Folk page*/
+#Folk{
+
+display: grid;
+ background-color:#ED8F66;
+ color:white;
+ text-align: center;
+ margin-top: 30px;
+}
+#folk{
+  display: grid;
+  background-color:#ED8F66;
+  color:white;
+  text-align: center;
+  font-family:georgia;
+  font-size: 30px;
+
+}
+#folk{
+  display: grid;
+  background-color:#ED8F66;
+  color:white;
+  text-align: center;
+  font-family:georgia;
+  font-size: 30px;
+
+}
+@media ( min-width: 600px ) {
+#container{
+  display:grid;
+  font-family: georgia;
+  text-align: justify;
+  margin-left:80px;
+  background-color:#DA7448;
+  margin-right:80px;
+  padding:30px;
+  margin-top: 40px;
+  font-size:15px;
+  grid-template-columns: 60% 40%
+}
+}
+#natura{
+  font-family:roboto;
+  font-size:17px;
+  margin-right:40px;
+  margin-left: 40px;
+  margin-top: 60px;
+
+}
+
+#naturaleza{
+  color: #853411;
+  text-align:center;
+  font-family: georgia;
+  background-color:#DA7448;
+  margin-top: 25px;
+}
+
+#sufjan{
+  text-align:center;
+  color: #853411;
+  background-color:#DA7448;
+  margin-top: 25px;
+}
+iframe{
+  margin-left: 60px;
+  margin-top: 40px;
+  margin-right: 60px;
+}
+#stevens{
+  margin-left: 50px;
+  margin-right: 80px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+/*Folk pages*/
+
+/*Jazz Pages*/
+#Jz{
+  color: white;
+  font-family: georgia;
+  text-align: center;
+  margin-top: 65px;
+  font-size: 60px;
+  background-color: black;
+
+}
+@media ( min-width: 600px ) {
+#Jazz1{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-right:80px;
+  font-size:15px;
+  margin-left:80px;
+  margin-top: 85px;
+  background-color:#060D2A;
+  color:white;
+}
+}
+
+#Jazztit{
+  text-align: center;
+  background-color:#060D2A;
+  margin-top: 55px;
+
+}
+#BuddyRich{
+  text-align:center;
+  color: white;
+  background-color:#060D2A;
+  margin-top: 55px;
+}
+
+#Jazztxt{
+  font-family:roboto;
+  font-size:17px;
+  margin-right:45px;
+  margin-left: 69px;
+  margin-top: 60px;
+  color: white;
+}
+
+#Jazztxt2{
+  margin-left: 45px;
+  margin-right: 80px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+
+}
+/*Jazz page*/
+/*Rockprog*/
+#RockProg{
+  background-color:#421414;
+  margin-top: 65px;
+}
+#Rock{
+  font-size: 60px;
+}
+@media ( min-width: 600px ) {
+#Rock1{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-right:80px;
+  font-size:15px;
+  margin-left:80px;
+  margin-top: 85px;
+  background-color:#270808;
+}
+}
+#Rocktitle{
+  text-align: center;
+  background-color:#270808;
+  margin-top: 55px;
+
+}
+#Rocktext{
+  font-family:roboto;
+  font-size:17px;
+  margin-right:45px;
+  margin-left: 69px;
+  margin-top: 60px;
+  color: white;
+}
+
+#Progtitle{
+  text-align:center;
+  color: white;
+  background-color:#270808;
+  margin-top: 55px;
+}
+
+#Progtxt{
+  margin-left: 45px;
+  margin-right: 80px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+/* Rock prog*/
+
+/*Experimental*/
+
+#Exp1{
+    background-color:#5EA243;
+    margin-top: 65px;
+  }
+@media ( min-width: 600px ) {
+  #Exp3{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-right:80px;
+    font-size:15px;
+    margin-left:80px;
+    margin-top: 85px;
+    background-color:#54BC30 ;
+    color:white;
+  }
+}
+  #Exptitle{
+    text-align: center;
+    background-color:#54BC30 ;
+    margin-top: 55px;
+}
+
+    #Exptitle2{
+      text-align:center;
+      color: white;
+      background-color:#54BC30;
+      margin-top: 55px;
+    }
